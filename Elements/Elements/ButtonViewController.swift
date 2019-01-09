@@ -17,6 +17,7 @@ class ButtonViewController: UIViewController {
 
         createDefaultButtonByCode()
         createCustomerButton()
+        createAnotherButton()
     }
     
     private func createDefaultButtonByCode() {
@@ -30,13 +31,27 @@ class ButtonViewController: UIViewController {
     private func createCustomerButton() {
         let customerButton = UIButton(type: UIButton.ButtonType.custom)
         customerButton.frame = CGRect(x: 10, y: 240, width: 150, height: 30)
-        customerButton.setTitle("Customer Button", for: UIControl.State.normal)
-        customerButton.setTitleColor(UIColor.black, for: UIControl.State.normal)
-        customerButton.setImage(UIImage(named: "button"), for: UIControl.State.highlighted)
+        customerButton.setTitle("Mobile Button", for: UIControl.State.normal)
+        customerButton.setImage(UIImage(named: "login"), for: UIControl.State.normal)
+        customerButton.setTitleColor(UIColor.blue, for: UIControl.State.normal)
+        customerButton.setTitleColor(UIColor.darkGray, for: UIControl.State.highlighted)
+        customerButton.imageEdgeInsets = UIEdgeInsets(top: 0, left: -10, bottom: 0, right: 0)
+        
 //        customerButton.adjustsImageWhenDisabled = false
 //        customerButton.adjustsImageWhenHighlighted = false
+        
         customerButton.addTarget(self, action: #selector(customerButtonTapped), for: UIControl.Event.touchUpOutside)
         self.view.addSubview(customerButton)
+    }
+    
+    private func createAnotherButton() {
+        let anotherButton = UIButton(type: UIButton.ButtonType.custom)
+        anotherButton.frame = CGRect(x: 10, y: 320, width: 150, height: 50)
+        anotherButton.setTitle("Another Button", for: UIControl.State.normal)
+        anotherButton.setTitle("Clicked Button", for: UIControl.State.highlighted)
+        anotherButton.setBackgroundImage(UIImage(named: "button"), for: UIControl.State.normal)
+        anotherButton.setBackgroundImage(UIImage(named: "button"), for: UIControl.State.highlighted)
+        self.view.addSubview(anotherButton)
     }
     
     @objc private func customerButtonTapped(button: UIButton) {
