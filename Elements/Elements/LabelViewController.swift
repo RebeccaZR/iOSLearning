@@ -27,18 +27,34 @@ class LabelViewController: UIViewController {
     }
     
     func createNormalLabelByCode() {
-        let normalLabel1 = UILabel(frame: CGRect(origin: CGPoint(x: 10, y: 150), size: CGSize(width: 300, height: 30)))
+//        let normalLabel1 = UILabel(frame: CGRect(origin: CGPoint(x: 10, y: 150), size: CGSize(width: 300, height: 30)))
+        let normalLabel1 = UILabel()
+        normalLabel1.translatesAutoresizingMaskIntoConstraints = false
         normalLabel1.text = "It's a label created by code."
         normalLabel1.backgroundColor = UIColor.blue
         self.view.addSubview(normalLabel1)
+        
+        normalLabel1.leadingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leadingAnchor, constant: 10).isActive = true
+        normalLabel1.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor, constant: -20).isActive = true
+        normalLabel1.topAnchor.constraint(equalTo: normalLabel.bottomAnchor, constant: 30).isActive = true
+        normalLabel1.heightAnchor.constraint(equalToConstant: 50).isActive = true
+        print("frame: \(normalLabel1.frame)")
+        
     }
     
     func createMutipleLineLabelByCode() {
-        let mutipleLineLabel = UILabel(frame: CGRect(x: 10, y: 300, width: 300, height: 60))
+//        let mutipleLineLabel = UILabel(frame: CGRect(x: 10, y: 300, width: 300, height: 60))
+        let mutipleLineLabel = UILabel()
+        mutipleLineLabel.translatesAutoresizingMaskIntoConstraints = false
         mutipleLineLabel.numberOfLines = 0
         mutipleLineLabel.text = "Apply the code to create a label to display multiple lines of text."
         mutipleLineLabel.backgroundColor = UIColor.yellow
         self.view.addSubview(mutipleLineLabel)
+        
+        mutipleLineLabel.leadingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leadingAnchor, constant: 30).isActive = true
+        mutipleLineLabel.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor, constant: -30).isActive = true
+        mutipleLineLabel.topAnchor.constraint(equalTo: normalLabel.bottomAnchor, constant: 200).isActive = true
+        mutipleLineLabel.heightAnchor.constraint(equalToConstant: 60)
     }
 
     func createAutoFitHeightLabel() {
