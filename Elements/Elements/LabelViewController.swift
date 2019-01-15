@@ -8,14 +8,14 @@
 
 import UIKit
 
-class LabelViewController: UIViewController {
+class LabelViewController: MyUIViewController {
 
     @IBOutlet weak var normalLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        self.title = myTitle
         
         normalLabel.text = "It's a normal label."
         
@@ -26,20 +26,30 @@ class LabelViewController: UIViewController {
         createAnotherAttributedLabel()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    
     func createNormalLabelByCode() {
 //        let normalLabel1 = UILabel(frame: CGRect(origin: CGPoint(x: 10, y: 150), size: CGSize(width: 300, height: 30)))
+        // Set label attributes
         let normalLabel1 = UILabel()
         normalLabel1.translatesAutoresizingMaskIntoConstraints = false
         normalLabel1.text = "It's a label created by code."
         normalLabel1.backgroundColor = UIColor.blue
+        normalLabel1.textColor = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)
         self.view.addSubview(normalLabel1)
         
+        // Add label constraint
         normalLabel1.leadingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leadingAnchor, constant: 10).isActive = true
         normalLabel1.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor, constant: -20).isActive = true
         normalLabel1.topAnchor.constraint(equalTo: normalLabel.bottomAnchor, constant: 30).isActive = true
         normalLabel1.heightAnchor.constraint(equalToConstant: 50).isActive = true
-        print("frame: \(normalLabel1.frame)")
         
+        // Set label font
+        normalLabel1.font = UIFont(name: UIFont.familyNames.first!, size: 30)
+        normalLabel1.minimumScaleFactor = 0.2
+//        normalLabel1.adjustsFontSizeToFitWidth = true
     }
     
     func createMutipleLineLabelByCode() {

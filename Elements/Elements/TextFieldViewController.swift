@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TextFieldViewController: UIViewController, UITextFieldDelegate {
+class TextFieldViewController: MyUIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var label: UILabel!

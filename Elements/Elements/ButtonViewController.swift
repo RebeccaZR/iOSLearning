@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ButtonViewController: UIViewController {
+class ButtonViewController: MyUIViewController {
 
     @IBOutlet weak var label: UILabel!
     
