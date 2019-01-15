@@ -14,7 +14,8 @@ class MyUIViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        title = myTitle
         // Do any additional setup after loading the view.
     }
     

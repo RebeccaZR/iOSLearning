@@ -47,6 +47,7 @@
                         <segue destination="bcS-1X-EmD" kind="show" identifier="ShowLabelDetail" id="efo-Td-6E2"/>
                         <segue destination="8ST-S9-cFL" kind="show" identifier="ShowButtonDetail" id="G59-ZS-sNS"/>
                         <segue destination="gDq-KW-JhG" kind="show" identifier="ShowTextFieldDetail" id="i2J-LX-wSE"/>
+                        <segue destination="fj1-kD-F2C" kind="show" identifier="ShowSizeClasses" id="DpT-NQ-7bA"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N4Y-cI-Xab" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -231,7 +232,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kzZ-Kt-j7A">
-                                <rect key="frame" x="100" y="256" width="175" height="175"/>
+                                <rect key="frame" x="100" y="278" width="175" height="175"/>
                                 <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="kzZ-Kt-j7A" secondAttribute="height" multiplier="1:1" id="14O-q5-yEu"/>
@@ -268,7 +269,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FRD-So-1m9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4407.1999999999998" y="-56.221889055472268"/>
+            <point key="canvasLocation" x="2092" y="794"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="GI2-7F-HfO">

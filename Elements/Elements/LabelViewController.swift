@@ -15,7 +15,8 @@ class LabelViewController: MyUIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = myTitle
+        // Implemented in the parent class
+//        self.title = myTitle
         
         normalLabel.text = "It's a normal label."
         
