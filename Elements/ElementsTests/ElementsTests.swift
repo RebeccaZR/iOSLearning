@@ -19,6 +19,12 @@ class ElementsTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    func testPerson() {
+        let name = "Rebecca"
+        let person = Person(name: name)
+        XCTAssert(person.name == name, "Name of person must match value passed in")
+    }
+    
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.

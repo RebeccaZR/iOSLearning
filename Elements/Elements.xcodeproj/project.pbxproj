@@ -19,6 +19,8 @@
 		4B619F3921ED84D100A8F992 /* MyUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B619F3821ED84D100A8F992 /* MyUIViewController.swift */; };
 		4B619F3B21ED8A3100A8F992 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B619F3A21ED8A3100A8F992 /* TableViewController.swift */; };
 		4B619F3F21ED8A8900A8F992 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B619F3E21ED8A8900A8F992 /* SubViewController.swift */; };
+		4B619F4121EEA2AA00A8F992 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B619F4021EEA2AA00A8F992 /* Person.swift */; };
+		4B619F4221EEA32B00A8F992 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B619F4021EEA2AA00A8F992 /* Person.swift */; };
 		4BDBCFFC21E5978D000EACC7 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBCFFB21E5978D000EACC7 /* TextFieldViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,7 @@
 		4B619F3821ED84D100A8F992 /* MyUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUIViewController.swift; sourceTree = "<group>"; };
 		4B619F3A21ED8A3100A8F992 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		4B619F3E21ED8A8900A8F992 /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		4B619F4021EEA2AA00A8F992 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		4BDBCFFB21E5978D000EACC7 /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +124,7 @@
 				4B2DF76121E2C0CA008CC2D7 /* Info.plist */,
 				4B619F3A21ED8A3100A8F992 /* TableViewController.swift */,
 				4B619F3E21ED8A8900A8F992 /* SubViewController.swift */,
+				4B619F4021EEA2AA00A8F992 /* Person.swift */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -280,6 +284,7 @@
 				4B619F3F21ED8A8900A8F992 /* SubViewController.swift in Sources */,
 				4B619F3921ED84D100A8F992 /* MyUIViewController.swift in Sources */,
 				4B619F3721ED5A7C00A8F992 /* MenuTableViewController.swift in Sources */,
+				4B619F4121EEA2AA00A8F992 /* Person.swift in Sources */,
 				4B2DF75621E2C0C9008CC2D7 /* AppDelegate.swift in Sources */,
 				4B2DF78421E2C6A6008CC2D7 /* LabelViewController.swift in Sources */,
 			);
@@ -289,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B619F4221EEA32B00A8F992 /* Person.swift in Sources */,
 				4B2DF76B21E2C0CA008CC2D7 /* ElementsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
