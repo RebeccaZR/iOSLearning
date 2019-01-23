@@ -22,9 +22,10 @@ class ButtonViewController: MyUIViewController {
     
     private func createDefaultButtonByCode() {
         let button = UIButton(type: UIButton.ButtonType.contactAdd)
-        button.frame = CGRect(x: 10, y: 180, width: 110, height: 30)
+        button.frame = CGRect(x: 10, y: 200, width: 110, height: 30)
         button.setTitle(" Add Button", for: UIControl.State.normal)
         button.addTarget(self, action: #selector(defaultButtonTappedWithoutParam), for: UIControl.Event.touchUpInside)
+        button.accessibilityIdentifier = "forUITest"
         self.view.addSubview(button)
     }
     

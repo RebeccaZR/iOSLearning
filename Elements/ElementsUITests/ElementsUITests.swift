@@ -26,9 +26,36 @@ class ElementsUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testMenu() {
+        let app = XCUIApplication()
+        let tablesQuery = app.tables
+        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Label"]/*[[".cells.staticTexts[\"Label\"]",".staticTexts[\"Label\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app.navigationBars["Label"].buttons["Menu"].tap()
+        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Button"]/*[[".cells.staticTexts[\"Button\"]",".staticTexts[\"Button\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app.navigationBars["Button"].buttons["Menu"].tap()
+        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["TextField"]/*[[".cells.staticTexts[\"TextField\"]",".staticTexts[\"TextField\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app.navigationBars["TextField"].buttons["Menu"].tap()
+        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Auto Layout & Size Class"]/*[[".cells.staticTexts[\"Auto Layout & Size Class\"]",".staticTexts[\"Auto Layout & Size Class\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app.navigationBars["UIView"].buttons["Menu"].tap()
+        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["TableView by code"]/*[[".cells.staticTexts[\"TableView by code\"]",".staticTexts[\"TableView by code\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app.navigationBars["Elements.TableView"].buttons["Menu"].tap()
     }
 
+    func testButtonView() {
+        
+        let app = XCUIApplication()
+        app.tables/*@START_MENU_TOKEN@*/.staticTexts["Button"]/*[[".cells.staticTexts[\"Button\"]",".staticTexts[\"Button\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        
+//        let addButton = app.buttons[" Add Button"]
+        let addButton = app.buttons["forUITest"]
+        
+        let label = app.staticTexts["showResultLabel"]
+        addButton.tap()
+        XCTAssertTrue(label.label.contains("default"), "Add button loses efficacy")
+        
+        let normalButton = app.buttons["Normal Button"]
+        normalButton.tap()
+        XCTAssertTrue(label.label.contains("normal"), "Normal button loses efficacy")
+        
+    }
 }

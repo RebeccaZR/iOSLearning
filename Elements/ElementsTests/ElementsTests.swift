@@ -22,7 +22,7 @@ class ElementsTests: XCTestCase {
     func testPerson() {
         let name = "Rebecca"
         let person = Person(name: name)
-        XCTAssert(person.name == name, "Name of person must match value passed in")
+        XCTAssertEqual(name, person.name, "Name of person must match value passed in")
     }
     
     func testExample() {
