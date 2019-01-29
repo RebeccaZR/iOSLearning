@@ -10,8 +10,8 @@ import UIKit
 
 class MenuTableViewController: UITableViewController {
 
-    let menuItemData = ["Label", "Button", "TextField", "Auto Layout & Size Class", "TableView by code"]
-    let segueList = ["ShowLabelDetail", "ShowButtonDetail", "ShowTextFieldDetail", "ShowSizeClasses"]
+    let menuItemData = ["Label", "Button", "TextField", "Auto Layout & Size Class", "TableView by code", "Alert", "Slider & Progress Bar"]
+    let segueList = ["ShowLabelDetail", "ShowButtonDetail", "ShowTextFieldDetail", "ShowSizeClasses", "TableViewByCode", "ShowAlertDetail", "ShowSlider"]
     var currentMenuItem = ""
     let table = TableViewController()
 //    let subView = SubViewController()
@@ -44,10 +44,10 @@ class MenuTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         currentMenuItem = menuItemData[indexPath.row]
-        if indexPath.row < segueList.count {
-            performSegue(withIdentifier: segueList[indexPath.row], sender: nil)
-        } else {
+        if segueList[indexPath.row] == "TableViewByCode" {
             navigationController?.pushViewController(table, animated: true)
+        } else {
+            performSegue(withIdentifier: segueList[indexPath.row], sender: nil)
         }
     }
     /*
