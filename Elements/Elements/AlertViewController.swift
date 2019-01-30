@@ -41,7 +41,8 @@ class AlertViewController: MyUIViewController {
     
     
     @IBAction func showShare(_ sender: Any) {
-        let activityViewController = UIActivityViewController(activityItems: ["Any data you want to share"], applicationActivities: nil)
+        let weChat = WeChatActivity()
+        let activityViewController = UIActivityViewController(activityItems: ["Any data you want to share"], applicationActivities: [weChat])
         present(activityViewController, animated: true) {
             print("You can do something here when share activity view controller dismissed.")
         }

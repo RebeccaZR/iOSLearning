@@ -10,8 +10,8 @@ import UIKit
 
 class MenuTableViewController: UITableViewController {
 
-    let menuItemData = ["Label", "Button", "TextField", "Auto Layout & Size Class", "TableView by code", "Alert", "Slider & Progress Bar"]
-    let segueList = ["ShowLabelDetail", "ShowButtonDetail", "ShowTextFieldDetail", "ShowSizeClasses", "TableViewByCode", "ShowAlertDetail", "ShowSlider"]
+    let menuItemData = ["Label", "Button", "TextField", "Auto Layout & Size Class", "TableView by code", "Alert", "Slider & Progress Bar", "Web"]
+    let segueList = ["ShowLabelDetail", "ShowButtonDetail", "ShowTextFieldDetail", "ShowSizeClasses", "TableViewByCode", "ShowAlertDetail", "ShowSlider", "ShowWeb"]
     var currentMenuItem = ""
     let table = TableViewController()
 //    let subView = SubViewController()

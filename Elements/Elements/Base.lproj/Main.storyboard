@@ -50,6 +50,7 @@
                         <segue destination="fj1-kD-F2C" kind="show" identifier="ShowSizeClasses" id="DpT-NQ-7bA"/>
                         <segue destination="sNw-OD-WUk" kind="show" identifier="ShowAlertDetail" id="mPd-PI-igP"/>
                         <segue destination="2Rm-vT-MWY" kind="show" identifier="ShowSlider" id="I7p-z7-p84"/>
+                        <segue destination="7cq-qo-NNf" kind="show" identifier="ShowWeb" id="pJd-BJ-6HV"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N4Y-cI-Xab" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -408,6 +409,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fJ0-1t-OLr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="340" y="100.29985007496252"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="dFd-Cf-J3q">
+            <objects>
+                <viewController id="7cq-qo-NNf" customClass="WebViewController" customModule="Elements" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6OJ-3f-lUZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMs-Qu-McL">
+                                <rect key="frame" x="80.5" y="104" width="214" height="30"/>
+                                <state key="normal" title="Open with SafariViewController"/>
+                                <connections>
+                                    <action selector="openSafariAction:" destination="7cq-qo-NNf" eventType="touchUpInside" id="KjF-4B-NDM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbv-gR-SiF">
+                                <rect key="frame" x="130.5" y="174" width="114" height="30"/>
+                                <state key="normal" title="Open with Safari"/>
+                                <connections>
+                                    <action selector="openBrowserAction:" destination="7cq-qo-NNf" eventType="touchUpInside" id="4qO-cE-92v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="JMs-Qu-McL" firstAttribute="centerX" secondItem="6OJ-3f-lUZ" secondAttribute="centerX" id="ETB-oR-BYV"/>
+                            <constraint firstItem="fbv-gR-SiF" firstAttribute="top" secondItem="JMs-Qu-McL" secondAttribute="bottom" constant="40" id="a6W-0s-gpD"/>
+                            <constraint firstItem="fbv-gR-SiF" firstAttribute="centerX" secondItem="6OJ-3f-lUZ" secondAttribute="centerX" id="cQX-zq-9bh"/>
+                            <constraint firstItem="JMs-Qu-McL" firstAttribute="top" secondItem="mZI-jf-EgX" secondAttribute="top" constant="40" id="mOm-Kn-VYS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mZI-jf-EgX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m9r-8b-Hon" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1310" y="-809"/>
         </scene>
     </scenes>
 </document>
