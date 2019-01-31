@@ -29,6 +29,9 @@
 		4B619F8E21FA950100A8F992 /* SliderAndProgressBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B619F8D21FA950100A8F992 /* SliderAndProgressBarViewController.swift */; };
 		4B619F902200016F00A8F992 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B619F8F2200016F00A8F992 /* WebViewController.swift */; };
 		4B619F9222000DA000A8F992 /* WeChatActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B619F9122000DA000A8F992 /* WeChatActivity.swift */; };
+		4B619F9422013ABB00A8F992 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B619F9322013ABB00A8F992 /* CollectionViewController.swift */; };
+		4B619F96220152CB00A8F992 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B619F95220152CB00A8F992 /* CollectionViewCell.swift */; };
+		4B619F98220161FC00A8F992 /* CollectionCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B619F97220161FC00A8F992 /* CollectionCellViewController.swift */; };
 		4BDBCFFC21E5978D000EACC7 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBCFFB21E5978D000EACC7 /* TextFieldViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +80,9 @@
 		4B619F8D21FA950100A8F992 /* SliderAndProgressBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderAndProgressBarViewController.swift; sourceTree = "<group>"; };
 		4B619F8F2200016F00A8F992 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		4B619F9122000DA000A8F992 /* WeChatActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatActivity.swift; sourceTree = "<group>"; };
+		4B619F9322013ABB00A8F992 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		4B619F95220152CB00A8F992 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		4B619F97220161FC00A8F992 /* CollectionCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCellViewController.swift; sourceTree = "<group>"; };
 		4BDBCFFB21E5978D000EACC7 /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,6 +140,9 @@
 				4B2DF78321E2C6A6008CC2D7 /* LabelViewController.swift */,
 				4BDBCFFB21E5978D000EACC7 /* TextFieldViewController.swift */,
 				4B619F3621ED5A7C00A8F992 /* MenuTableViewController.swift */,
+				4B619F9322013ABB00A8F992 /* CollectionViewController.swift */,
+				4B619F95220152CB00A8F992 /* CollectionViewCell.swift */,
+				4B619F97220161FC00A8F992 /* CollectionCellViewController.swift */,
 				4B619F8B21F9660000A8F992 /* AlertViewController.swift */,
 				4B619F8D21FA950100A8F992 /* SliderAndProgressBarViewController.swift */,
 				4B619F8F2200016F00A8F992 /* WebViewController.swift */,
@@ -312,6 +321,9 @@
 				4B619F9222000DA000A8F992 /* WeChatActivity.swift in Sources */,
 				4B619F8E21FA950100A8F992 /* SliderAndProgressBarViewController.swift in Sources */,
 				4B619F4121EEA2AA00A8F992 /* Person.swift in Sources */,
+				4B619F9422013ABB00A8F992 /* CollectionViewController.swift in Sources */,
+				4B619F96220152CB00A8F992 /* CollectionViewCell.swift in Sources */,
+				4B619F98220161FC00A8F992 /* CollectionCellViewController.swift in Sources */,
 				4B619F8C21F9660000A8F992 /* AlertViewController.swift in Sources */,
 				4B619F8221F1770900A8F992 /* Music.swift in Sources */,
 				4B2DF75621E2C0C9008CC2D7 /* AppDelegate.swift in Sources */,

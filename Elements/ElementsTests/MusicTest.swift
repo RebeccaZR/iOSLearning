@@ -53,7 +53,9 @@ class MusicTest: XCTestCase {
         }
         
         waitForExpectations(timeout: 10.0) { (error) in
-            print(error?.localizedDescription)
+            if let desc = error?.localizedDescription {
+                print(desc)
+            }
         }
     }
 
@@ -66,7 +68,9 @@ class MusicTest: XCTestCase {
                 exp.fulfill()
             })
             waitForExpectations(timeout: 10.0, handler: { (error) in
-                print(error?.localizedDescription)
+                if let desc = error?.localizedDescription {
+                    print(desc)
+                }
             })
         }
     }
