@@ -1,3 +1,3 @@
 # iOSLearning
 
-It's a project used to learn iOS elements.
+The projects are the things I have learned recently.
