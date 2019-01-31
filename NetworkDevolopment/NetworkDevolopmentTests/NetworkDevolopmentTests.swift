@@ -24,13 +24,6 @@ class NetworkDevolopmentTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
-    func testDisemvowel() {
-        let vc = ViewController()
-        XCTAssertEqual("Ths wbst s fr lsrs LL!", vc.disemvowel("This website is for losers LOL!"))
-        XCTAssertEqual("N ffns bt,\nYr wrtng s mng th wrst 'v vr rd", vc.disemvowel("No offense but,\nYour writing is among the worst I've ever read"))
-        XCTAssertEqual("Wht r y,  cmmnst?", vc.disemvowel("What are you, a communist?"))
-    }
-    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
