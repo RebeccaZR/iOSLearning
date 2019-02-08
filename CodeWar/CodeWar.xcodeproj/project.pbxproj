@@ -30,6 +30,8 @@
 		4BD4FBD8220D07A80034A59D /* StringyStringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBD7220D07A80034A59D /* StringyStringsTests.swift */; };
 		4BD4FBDA220D0D9A0034A59D /* ConvertNumberToReversedArrayOfDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBD9220D0D9A0034A59D /* ConvertNumberToReversedArrayOfDigits.swift */; };
 		4BD4FBDC220D0DC80034A59D /* ConvertNumberToReversedArrayOfDigitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBDB220D0DC80034A59D /* ConvertNumberToReversedArrayOfDigitsTests.swift */; };
+		4BD4FBDE220D13FA0034A59D /* CalculateBMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBDD220D13FA0034A59D /* CalculateBMI.swift */; };
+		4BD4FBE0220D14E10034A59D /* CalculateBMITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBDF220D14E10034A59D /* CalculateBMITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		4BD4FBD7220D07A80034A59D /* StringyStringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringyStringsTests.swift; sourceTree = "<group>"; };
 		4BD4FBD9220D0D9A0034A59D /* ConvertNumberToReversedArrayOfDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertNumberToReversedArrayOfDigits.swift; sourceTree = "<group>"; };
 		4BD4FBDB220D0DC80034A59D /* ConvertNumberToReversedArrayOfDigitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertNumberToReversedArrayOfDigitsTests.swift; sourceTree = "<group>"; };
+		4BD4FBDD220D13FA0034A59D /* CalculateBMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateBMI.swift; sourceTree = "<group>"; };
+		4BD4FBDF220D14E10034A59D /* CalculateBMITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateBMITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 				4B619FDF2202938700A8F992 /* AppDelegate.swift */,
 				4B61A0022203CA6900A8F992 /* DescendingOrder.swift */,
 				4BD4FBD9220D0D9A0034A59D /* ConvertNumberToReversedArrayOfDigits.swift */,
+				4BD4FBDD220D13FA0034A59D /* CalculateBMI.swift */,
 				4B619FFF220293C100A8F992 /* Disemvowel.swift */,
 				4BD4FBC5220B9BFA0034A59D /* MovesInSquaredStrings.swift */,
 				4BD4FBC9220BE2060034A59D /* SumOfPositive.swift */,
@@ -133,6 +138,7 @@
 				4B61A00B2203CCCC00A8F992 /* CodeWarTests.swift */,
 				4B61A0072203CB8B00A8F992 /* DescendingOrderTests.swift */,
 				4BD4FBC7220B9C1D0034A59D /* MovesInSquaredStringsTests.swift */,
+				4BD4FBDF220D14E10034A59D /* CalculateBMITests.swift */,
 				4BD4FBCB220BE2410034A59D /* SumOfPositiveTests.swift */,
 				4BD4FBDB220D0DC80034A59D /* ConvertNumberToReversedArrayOfDigitsTests.swift */,
 				4BD4FBCF220BEE8A0034A59D /* StringRepeatTests.swift */,
@@ -251,6 +257,7 @@
 				4BD4FBD6220D078A0034A59D /* StringyStrings.swift in Sources */,
 				4BD4FBCA220BE2060034A59D /* SumOfPositive.swift in Sources */,
 				4B61A000220293C100A8F992 /* Disemvowel.swift in Sources */,
+				4BD4FBDE220D13FA0034A59D /* CalculateBMI.swift in Sources */,
 				4B619FE02202938700A8F992 /* AppDelegate.swift in Sources */,
 				4BD4FBCE220BEE140034A59D /* StringRepeat.swift in Sources */,
 				4BD4FBD2220D02C70034A59D /* SwitchItUp.swift in Sources */,
@@ -268,6 +275,7 @@
 				4B61A001220293C100A8F992 /* Disemvowel.swift in Sources */,
 				4BD4FBC8220B9C1D0034A59D /* MovesInSquaredStringsTests.swift in Sources */,
 				4B61A00C2203CCCC00A8F992 /* CodeWarTests.swift in Sources */,
+				4BD4FBE0220D14E10034A59D /* CalculateBMITests.swift in Sources */,
 				4B61A0042203CA6900A8F992 /* DescendingOrder.swift in Sources */,
 				4BD4FBDC220D0DC80034A59D /* ConvertNumberToReversedArrayOfDigitsTests.swift in Sources */,
 				4BD4FBD4220D030B0034A59D /* SwitchItUpTests.swift in Sources */,
