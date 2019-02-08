@@ -26,6 +26,8 @@
 		4BD4FBD0220BEE8A0034A59D /* StringRepeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBCF220BEE8A0034A59D /* StringRepeatTests.swift */; };
 		4BD4FBD2220D02C70034A59D /* SwitchItUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBD1220D02C70034A59D /* SwitchItUp.swift */; };
 		4BD4FBD4220D030B0034A59D /* SwitchItUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBD3220D030B0034A59D /* SwitchItUpTests.swift */; };
+		4BD4FBD6220D078A0034A59D /* StringyStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBD5220D078A0034A59D /* StringyStrings.swift */; };
+		4BD4FBD8220D07A80034A59D /* StringyStringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBD7220D07A80034A59D /* StringyStringsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		4BD4FBCF220BEE8A0034A59D /* StringRepeatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringRepeatTests.swift; sourceTree = "<group>"; };
 		4BD4FBD1220D02C70034A59D /* SwitchItUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchItUp.swift; sourceTree = "<group>"; };
 		4BD4FBD3220D030B0034A59D /* SwitchItUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchItUpTests.swift; sourceTree = "<group>"; };
+		4BD4FBD5220D078A0034A59D /* StringyStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringyStrings.swift; sourceTree = "<group>"; };
+		4BD4FBD7220D07A80034A59D /* StringyStringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringyStringsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 				4BD4FBC9220BE2060034A59D /* SumOfPositive.swift */,
 				4BD4FBCD220BEE140034A59D /* StringRepeat.swift */,
 				4BD4FBD1220D02C70034A59D /* SwitchItUp.swift */,
+				4BD4FBD5220D078A0034A59D /* StringyStrings.swift */,
 				4B619FE12202938700A8F992 /* ViewController.swift */,
 				4B619FE32202938700A8F992 /* Main.storyboard */,
 				4B619FE62202938800A8F992 /* Assets.xcassets */,
@@ -125,6 +130,7 @@
 				4BD4FBC7220B9C1D0034A59D /* MovesInSquaredStringsTests.swift */,
 				4BD4FBCB220BE2410034A59D /* SumOfPositiveTests.swift */,
 				4BD4FBCF220BEE8A0034A59D /* StringRepeatTests.swift */,
+				4BD4FBD7220D07A80034A59D /* StringyStringsTests.swift */,
 				4BD4FBD3220D030B0034A59D /* SwitchItUpTests.swift */,
 				4B619FF62202938800A8F992 /* Info.plist */,
 			);
@@ -235,6 +241,7 @@
 				4B61A0032203CA6900A8F992 /* DescendingOrder.swift in Sources */,
 				4BD4FBC6220B9BFA0034A59D /* MovesInSquaredStrings.swift in Sources */,
 				4B619FE22202938700A8F992 /* ViewController.swift in Sources */,
+				4BD4FBD6220D078A0034A59D /* StringyStrings.swift in Sources */,
 				4BD4FBCA220BE2060034A59D /* SumOfPositive.swift in Sources */,
 				4B61A000220293C100A8F992 /* Disemvowel.swift in Sources */,
 				4B619FE02202938700A8F992 /* AppDelegate.swift in Sources */,
@@ -249,6 +256,7 @@
 			files = (
 				4BD4FBD0220BEE8A0034A59D /* StringRepeatTests.swift in Sources */,
 				4B61A0082203CB8B00A8F992 /* DescendingOrderTests.swift in Sources */,
+				4BD4FBD8220D07A80034A59D /* StringyStringsTests.swift in Sources */,
 				4BD4FBCC220BE2410034A59D /* SumOfPositiveTests.swift in Sources */,
 				4B61A001220293C100A8F992 /* Disemvowel.swift in Sources */,
 				4BD4FBC8220B9C1D0034A59D /* MovesInSquaredStringsTests.swift in Sources */,
