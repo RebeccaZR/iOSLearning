@@ -32,6 +32,8 @@
 		4BD4FBDC220D0DC80034A59D /* ConvertNumberToReversedArrayOfDigitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBDB220D0DC80034A59D /* ConvertNumberToReversedArrayOfDigitsTests.swift */; };
 		4BD4FBDE220D13FA0034A59D /* CalculateBMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBDD220D13FA0034A59D /* CalculateBMI.swift */; };
 		4BD4FBE0220D14E10034A59D /* CalculateBMITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBDF220D14E10034A59D /* CalculateBMITests.swift */; };
+		4BD4FBE2220D1F740034A59D /* DollarsAndCents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBE1220D1F740034A59D /* DollarsAndCents.swift */; };
+		4BD4FBE4220D1F9D0034A59D /* DollarsAndCentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBE3220D1F9D0034A59D /* DollarsAndCentsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,8 @@
 		4BD4FBDB220D0DC80034A59D /* ConvertNumberToReversedArrayOfDigitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertNumberToReversedArrayOfDigitsTests.swift; sourceTree = "<group>"; };
 		4BD4FBDD220D13FA0034A59D /* CalculateBMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateBMI.swift; sourceTree = "<group>"; };
 		4BD4FBDF220D14E10034A59D /* CalculateBMITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateBMITests.swift; sourceTree = "<group>"; };
+		4BD4FBE1220D1F740034A59D /* DollarsAndCents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarsAndCents.swift; sourceTree = "<group>"; };
+		4BD4FBE3220D1F9D0034A59D /* DollarsAndCentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarsAndCentsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 				4BD4FBD9220D0D9A0034A59D /* ConvertNumberToReversedArrayOfDigits.swift */,
 				4BD4FBDD220D13FA0034A59D /* CalculateBMI.swift */,
 				4B619FFF220293C100A8F992 /* Disemvowel.swift */,
+				4BD4FBE1220D1F740034A59D /* DollarsAndCents.swift */,
 				4BD4FBC5220B9BFA0034A59D /* MovesInSquaredStrings.swift */,
 				4BD4FBC9220BE2060034A59D /* SumOfPositive.swift */,
 				4BD4FBCD220BEE140034A59D /* StringRepeat.swift */,
@@ -140,6 +145,7 @@
 				4BD4FBC7220B9C1D0034A59D /* MovesInSquaredStringsTests.swift */,
 				4BD4FBDF220D14E10034A59D /* CalculateBMITests.swift */,
 				4BD4FBCB220BE2410034A59D /* SumOfPositiveTests.swift */,
+				4BD4FBE3220D1F9D0034A59D /* DollarsAndCentsTests.swift */,
 				4BD4FBDB220D0DC80034A59D /* ConvertNumberToReversedArrayOfDigitsTests.swift */,
 				4BD4FBCF220BEE8A0034A59D /* StringRepeatTests.swift */,
 				4BD4FBD7220D07A80034A59D /* StringyStringsTests.swift */,
@@ -255,6 +261,7 @@
 				4BD4FBC6220B9BFA0034A59D /* MovesInSquaredStrings.swift in Sources */,
 				4B619FE22202938700A8F992 /* ViewController.swift in Sources */,
 				4BD4FBD6220D078A0034A59D /* StringyStrings.swift in Sources */,
+				4BD4FBE2220D1F740034A59D /* DollarsAndCents.swift in Sources */,
 				4BD4FBCA220BE2060034A59D /* SumOfPositive.swift in Sources */,
 				4B61A000220293C100A8F992 /* Disemvowel.swift in Sources */,
 				4BD4FBDE220D13FA0034A59D /* CalculateBMI.swift in Sources */,
@@ -269,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BD4FBD0220BEE8A0034A59D /* StringRepeatTests.swift in Sources */,
+				4BD4FBE4220D1F9D0034A59D /* DollarsAndCentsTests.swift in Sources */,
 				4B61A0082203CB8B00A8F992 /* DescendingOrderTests.swift in Sources */,
 				4BD4FBD8220D07A80034A59D /* StringyStringsTests.swift in Sources */,
 				4BD4FBCC220BE2410034A59D /* SumOfPositiveTests.swift in Sources */,
