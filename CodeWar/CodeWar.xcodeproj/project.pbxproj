@@ -36,6 +36,8 @@
 		4BD4FBE4220D1F9D0034A59D /* DollarsAndCentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBE3220D1F9D0034A59D /* DollarsAndCentsTests.swift */; };
 		4BD4FBE6220D29DD0034A59D /* SquareOrSquareRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBE5220D29DD0034A59D /* SquareOrSquareRoot.swift */; };
 		4BD4FBE8220D2A170034A59D /* SquareOrSquareRootTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBE7220D2A170034A59D /* SquareOrSquareRootTests.swift */; };
+		4BD4FBEA220E92D40034A59D /* Mumbling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBE9220E92D40034A59D /* Mumbling.swift */; };
+		4BD4FBEC220E93820034A59D /* MumblingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBEB220E93820034A59D /* MumblingTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		4BD4FBE3220D1F9D0034A59D /* DollarsAndCentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarsAndCentsTests.swift; sourceTree = "<group>"; };
 		4BD4FBE5220D29DD0034A59D /* SquareOrSquareRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareOrSquareRoot.swift; sourceTree = "<group>"; };
 		4BD4FBE7220D2A170034A59D /* SquareOrSquareRootTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareOrSquareRootTests.swift; sourceTree = "<group>"; };
+		4BD4FBE9220E92D40034A59D /* Mumbling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mumbling.swift; sourceTree = "<group>"; };
+		4BD4FBEB220E93820034A59D /* MumblingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MumblingTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,7 @@
 				4B619FFF220293C100A8F992 /* Disemvowel.swift */,
 				4BD4FBE1220D1F740034A59D /* DollarsAndCents.swift */,
 				4BD4FBE5220D29DD0034A59D /* SquareOrSquareRoot.swift */,
+				4BD4FBE9220E92D40034A59D /* Mumbling.swift */,
 				4BD4FBC5220B9BFA0034A59D /* MovesInSquaredStrings.swift */,
 				4BD4FBC9220BE2060034A59D /* SumOfPositive.swift */,
 				4BD4FBCD220BEE140034A59D /* StringRepeat.swift */,
@@ -152,6 +157,7 @@
 				4BD4FBE7220D2A170034A59D /* SquareOrSquareRootTests.swift */,
 				4BD4FBCB220BE2410034A59D /* SumOfPositiveTests.swift */,
 				4BD4FBE3220D1F9D0034A59D /* DollarsAndCentsTests.swift */,
+				4BD4FBEB220E93820034A59D /* MumblingTests.swift */,
 				4BD4FBDB220D0DC80034A59D /* ConvertNumberToReversedArrayOfDigitsTests.swift */,
 				4BD4FBCF220BEE8A0034A59D /* StringRepeatTests.swift */,
 				4BD4FBD7220D07A80034A59D /* StringyStringsTests.swift */,
@@ -262,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BD4FBEA220E92D40034A59D /* Mumbling.swift in Sources */,
 				4BD4FBDA220D0D9A0034A59D /* ConvertNumberToReversedArrayOfDigits.swift in Sources */,
 				4B61A0032203CA6900A8F992 /* DescendingOrder.swift in Sources */,
 				4BD4FBC6220B9BFA0034A59D /* MovesInSquaredStrings.swift in Sources */,
@@ -294,6 +301,7 @@
 				4B61A0042203CA6900A8F992 /* DescendingOrder.swift in Sources */,
 				4BD4FBE8220D2A170034A59D /* SquareOrSquareRootTests.swift in Sources */,
 				4BD4FBDC220D0DC80034A59D /* ConvertNumberToReversedArrayOfDigitsTests.swift in Sources */,
+				4BD4FBEC220E93820034A59D /* MumblingTests.swift in Sources */,
 				4BD4FBD4220D030B0034A59D /* SwitchItUpTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
