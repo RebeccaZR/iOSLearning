@@ -38,6 +38,9 @@
 		4BD4FBE8220D2A170034A59D /* SquareOrSquareRootTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBE7220D2A170034A59D /* SquareOrSquareRootTests.swift */; };
 		4BD4FBEA220E92D40034A59D /* Mumbling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBE9220E92D40034A59D /* Mumbling.swift */; };
 		4BD4FBEC220E93820034A59D /* MumblingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBEB220E93820034A59D /* MumblingTests.swift */; };
+		4BD4FBEE221117BC0034A59D /* LinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBED221117BC0034A59D /* LinkedLists.swift */; };
+		4BD4FBF02213B9A10034A59D /* DryingPotatoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBEF2213B9A00034A59D /* DryingPotatoes.swift */; };
+		4BD4FBF22213BA250034A59D /* DryingPotatoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBF12213BA250034A59D /* DryingPotatoesTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +87,9 @@
 		4BD4FBE7220D2A170034A59D /* SquareOrSquareRootTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareOrSquareRootTests.swift; sourceTree = "<group>"; };
 		4BD4FBE9220E92D40034A59D /* Mumbling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mumbling.swift; sourceTree = "<group>"; };
 		4BD4FBEB220E93820034A59D /* MumblingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MumblingTests.swift; sourceTree = "<group>"; };
+		4BD4FBED221117BC0034A59D /* LinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedLists.swift; sourceTree = "<group>"; };
+		4BD4FBEF2213B9A00034A59D /* DryingPotatoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DryingPotatoes.swift; sourceTree = "<group>"; };
+		4BD4FBF12213BA250034A59D /* DryingPotatoesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DryingPotatoesTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +141,9 @@
 				4BD4FBE9220E92D40034A59D /* Mumbling.swift */,
 				4BD4FBC5220B9BFA0034A59D /* MovesInSquaredStrings.swift */,
 				4BD4FBC9220BE2060034A59D /* SumOfPositive.swift */,
+				4BD4FBED221117BC0034A59D /* LinkedLists.swift */,
 				4BD4FBCD220BEE140034A59D /* StringRepeat.swift */,
+				4BD4FBEF2213B9A00034A59D /* DryingPotatoes.swift */,
 				4BD4FBD1220D02C70034A59D /* SwitchItUp.swift */,
 				4BD4FBD5220D078A0034A59D /* StringyStrings.swift */,
 				4B619FE12202938700A8F992 /* ViewController.swift */,
@@ -160,6 +168,7 @@
 				4BD4FBEB220E93820034A59D /* MumblingTests.swift */,
 				4BD4FBDB220D0DC80034A59D /* ConvertNumberToReversedArrayOfDigitsTests.swift */,
 				4BD4FBCF220BEE8A0034A59D /* StringRepeatTests.swift */,
+				4BD4FBF12213BA250034A59D /* DryingPotatoesTests.swift */,
 				4BD4FBD7220D07A80034A59D /* StringyStringsTests.swift */,
 				4BD4FBD3220D030B0034A59D /* SwitchItUpTests.swift */,
 				4B619FF62202938800A8F992 /* Info.plist */,
@@ -271,6 +280,7 @@
 				4BD4FBEA220E92D40034A59D /* Mumbling.swift in Sources */,
 				4BD4FBDA220D0D9A0034A59D /* ConvertNumberToReversedArrayOfDigits.swift in Sources */,
 				4B61A0032203CA6900A8F992 /* DescendingOrder.swift in Sources */,
+				4BD4FBEE221117BC0034A59D /* LinkedLists.swift in Sources */,
 				4BD4FBC6220B9BFA0034A59D /* MovesInSquaredStrings.swift in Sources */,
 				4B619FE22202938700A8F992 /* ViewController.swift in Sources */,
 				4BD4FBD6220D078A0034A59D /* StringyStrings.swift in Sources */,
@@ -278,6 +288,7 @@
 				4BD4FBCA220BE2060034A59D /* SumOfPositive.swift in Sources */,
 				4B61A000220293C100A8F992 /* Disemvowel.swift in Sources */,
 				4BD4FBDE220D13FA0034A59D /* CalculateBMI.swift in Sources */,
+				4BD4FBF02213B9A10034A59D /* DryingPotatoes.swift in Sources */,
 				4B619FE02202938700A8F992 /* AppDelegate.swift in Sources */,
 				4BD4FBCE220BEE140034A59D /* StringRepeat.swift in Sources */,
 				4BD4FBE6220D29DD0034A59D /* SquareOrSquareRoot.swift in Sources */,
@@ -296,6 +307,7 @@
 				4BD4FBCC220BE2410034A59D /* SumOfPositiveTests.swift in Sources */,
 				4B61A001220293C100A8F992 /* Disemvowel.swift in Sources */,
 				4BD4FBC8220B9C1D0034A59D /* MovesInSquaredStringsTests.swift in Sources */,
+				4BD4FBF22213BA250034A59D /* DryingPotatoesTests.swift in Sources */,
 				4B61A00C2203CCCC00A8F992 /* CodeWarTests.swift in Sources */,
 				4BD4FBE0220D14E10034A59D /* CalculateBMITests.swift in Sources */,
 				4B61A0042203CA6900A8F992 /* DescendingOrder.swift in Sources */,
