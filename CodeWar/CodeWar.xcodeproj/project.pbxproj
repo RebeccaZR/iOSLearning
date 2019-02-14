@@ -43,6 +43,8 @@
 		4BD4FBF22213BA250034A59D /* DryingPotatoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBF12213BA250034A59D /* DryingPotatoesTests.swift */; };
 		4BD4FBF4221410F80034A59D /* ResistorColorCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBF3221410F80034A59D /* ResistorColorCodes.swift */; };
 		4BD4FBF6221411100034A59D /* ResistorColorCodesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBF5221411100034A59D /* ResistorColorCodesTests.swift */; };
+		4BD4FBFC22160E8D0034A59D /* CountingInTheAmazon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBFB22160E8D0034A59D /* CountingInTheAmazon.swift */; };
+		4BD4FBFE22160FC80034A59D /* CountingInTheAmazonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBFD22160FC80034A59D /* CountingInTheAmazonTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +96,8 @@
 		4BD4FBF12213BA250034A59D /* DryingPotatoesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DryingPotatoesTests.swift; sourceTree = "<group>"; };
 		4BD4FBF3221410F80034A59D /* ResistorColorCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorColorCodes.swift; sourceTree = "<group>"; };
 		4BD4FBF5221411100034A59D /* ResistorColorCodesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorColorCodesTests.swift; sourceTree = "<group>"; };
+		4BD4FBFB22160E8D0034A59D /* CountingInTheAmazon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingInTheAmazon.swift; sourceTree = "<group>"; };
+		4BD4FBFD22160FC80034A59D /* CountingInTheAmazonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingInTheAmazonTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,7 @@
 				4BD4FBE9220E92D40034A59D /* Mumbling.swift */,
 				4BD4FBC5220B9BFA0034A59D /* MovesInSquaredStrings.swift */,
 				4BD4FBF3221410F80034A59D /* ResistorColorCodes.swift */,
+				4BD4FBFB22160E8D0034A59D /* CountingInTheAmazon.swift */,
 				4BD4FBC9220BE2060034A59D /* SumOfPositive.swift */,
 				4BD4FBED221117BC0034A59D /* LinkedLists.swift */,
 				4BD4FBCD220BEE140034A59D /* StringRepeat.swift */,
@@ -172,6 +177,7 @@
 				4BD4FBCB220BE2410034A59D /* SumOfPositiveTests.swift */,
 				4BD4FBE3220D1F9D0034A59D /* DollarsAndCentsTests.swift */,
 				4BD4FBEB220E93820034A59D /* MumblingTests.swift */,
+				4BD4FBFD22160FC80034A59D /* CountingInTheAmazonTests.swift */,
 				4BD4FBDB220D0DC80034A59D /* ConvertNumberToReversedArrayOfDigitsTests.swift */,
 				4BD4FBCF220BEE8A0034A59D /* StringRepeatTests.swift */,
 				4BD4FBF12213BA250034A59D /* DryingPotatoesTests.swift */,
@@ -288,6 +294,7 @@
 				4B61A0032203CA6900A8F992 /* DescendingOrder.swift in Sources */,
 				4BD4FBEE221117BC0034A59D /* LinkedLists.swift in Sources */,
 				4BD4FBC6220B9BFA0034A59D /* MovesInSquaredStrings.swift in Sources */,
+				4BD4FBFC22160E8D0034A59D /* CountingInTheAmazon.swift in Sources */,
 				4B619FE22202938700A8F992 /* ViewController.swift in Sources */,
 				4BD4FBD6220D078A0034A59D /* StringyStrings.swift in Sources */,
 				4BD4FBE2220D1F740034A59D /* DollarsAndCents.swift in Sources */,
@@ -317,6 +324,7 @@
 				4BD4FBC8220B9C1D0034A59D /* MovesInSquaredStringsTests.swift in Sources */,
 				4BD4FBF22213BA250034A59D /* DryingPotatoesTests.swift in Sources */,
 				4B61A00C2203CCCC00A8F992 /* CodeWarTests.swift in Sources */,
+				4BD4FBFE22160FC80034A59D /* CountingInTheAmazonTests.swift in Sources */,
 				4BD4FBE0220D14E10034A59D /* CalculateBMITests.swift in Sources */,
 				4B61A0042203CA6900A8F992 /* DescendingOrder.swift in Sources */,
 				4BD4FBE8220D2A170034A59D /* SquareOrSquareRootTests.swift in Sources */,
