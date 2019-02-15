@@ -14,6 +14,8 @@
 		4B619FB022028C7400A8F992 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B619FAE22028C7400A8F992 /* LaunchScreen.storyboard */; };
 		4B619FBB22028C7400A8F992 /* NetworkDevolopmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B619FBA22028C7400A8F992 /* NetworkDevolopmentTests.swift */; };
 		4B619FC622028C7400A8F992 /* NetworkDevolopmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B619FC522028C7400A8F992 /* NetworkDevolopmentUITests.swift */; };
+		4BD4FBF822150A0C0034A59D /* RESTfulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBF722150A0C0034A59D /* RESTfulViewController.swift */; };
+		4BD4FBFA22150A880034A59D /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBF922150A880034A59D /* Music.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4B619FC122028C7400A8F992 /* NetworkDevolopmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkDevolopmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B619FC522028C7400A8F992 /* NetworkDevolopmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDevolopmentUITests.swift; sourceTree = "<group>"; };
 		4B619FC722028C7400A8F992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD4FBF722150A0C0034A59D /* RESTfulViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTfulViewController.swift; sourceTree = "<group>"; };
+		4BD4FBF922150A880034A59D /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				4B619FA522028C7100A8F992 /* AppDelegate.swift */,
 				4B619FA722028C7100A8F992 /* ViewController.swift */,
 				4B619FA922028C7100A8F992 /* Main.storyboard */,
+				4BD4FBF722150A0C0034A59D /* RESTfulViewController.swift */,
+				4BD4FBF922150A880034A59D /* Music.swift */,
 				4B619FAC22028C7400A8F992 /* Assets.xcassets */,
 				4B619FAE22028C7400A8F992 /* LaunchScreen.storyboard */,
 				4B619FB122028C7400A8F992 /* Info.plist */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B619FA822028C7100A8F992 /* ViewController.swift in Sources */,
+				4BD4FBF822150A0C0034A59D /* RESTfulViewController.swift in Sources */,
 				4B619FA622028C7100A8F992 /* AppDelegate.swift in Sources */,
+				4BD4FBFA22150A880034A59D /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
