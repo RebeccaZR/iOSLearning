@@ -20,8 +20,17 @@ class RESTfulViewController: UIViewController {
         Music.fetch(withId: 1) { music in
             print(music.description ?? "No description")
             music.description = "A new description for learning"
-            music.updateServer()
+            music.dict = ["key1":99]
+            if let musicData = try? JSONEncoder().encode(music) {
+                if let anotherMusic = try? JSONDecoder().decode(Music.self, from: musicData) {
+                    print(anotherMusic.dict ?? "No data")
+                }
+            }
         }
+        
+//        Music.fetchAll { (list) in
+//            print(list.count)
+//        }
     }
     /*
     // MARK: - Navigation
