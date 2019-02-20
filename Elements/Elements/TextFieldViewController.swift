@@ -18,10 +18,26 @@ class TextFieldViewController: MyUIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var loginButton: UIButton!
     
+    @IBOutlet weak var textView: UITextView!
+    
+    override func encodeRestorableState(with coder: NSCoder) {
+        if textView.isFirstResponder {
+            coder.encode(textView.text, forKey: "EditedText")
+            print("encodeRestorableState")
+        }
+        super.encodeRestorableState(with: coder)
+    }
+    
+    override func decodeRestorableState(with coder: NSCoder) {
+        super.decodeRestorableState(with: coder)
+        if let editedText = coder.decodeObject(forKey: "EditedText") as? String {
+            textView.text = editedText
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        accountTextField.becomeFirstResponder()
+        
+        textField.becomeFirstResponder()
         textField.delegate = self
         // Do any additional setup after loading the view.
     }

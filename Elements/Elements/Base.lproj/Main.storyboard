@@ -13,7 +13,7 @@
         <!--Menu-->
         <scene sceneID="Z3I-A0-pBQ">
             <objects>
-                <tableViewController id="d4R-jy-OZJ" customClass="MenuTableViewController" customModule="Elements" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="MenuTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="d4R-jy-OZJ" customClass="MenuTableViewController" customModule="Elements" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="6zA-H1-frt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -240,12 +240,12 @@
         <!--Text Field View Controller-->
         <scene sceneID="0HU-Ip-dA0">
             <objects>
-                <viewController id="gDq-KW-JhG" customClass="TextFieldViewController" customModule="Elements" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TextFieldViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gDq-KW-JhG" customClass="TextFieldViewController" customModule="Elements" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f9E-s4-byq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f0J-F6-nEH">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Default text" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f0J-F6-nEH">
                                 <rect key="frame" x="10" y="104" width="355" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -288,16 +288,26 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LAH-7w-Bsl">
+                                <rect key="frame" x="0.0" y="455" width="375" height="212"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="uCX-HL-0nd" firstAttribute="trailing" secondItem="LAH-7w-Bsl" secondAttribute="trailing" id="0oy-je-9Kx"/>
                             <constraint firstItem="G8g-1D-n2z" firstAttribute="leading" secondItem="uCX-HL-0nd" secondAttribute="leading" constant="30" id="1EE-yi-QHX"/>
+                            <constraint firstItem="LAH-7w-Bsl" firstAttribute="top" secondItem="G8g-1D-n2z" secondAttribute="bottom" constant="20" id="1Ut-CH-q0s"/>
                             <constraint firstItem="uCX-HL-0nd" firstAttribute="trailing" secondItem="kyi-OQ-2vu" secondAttribute="trailing" constant="10" id="1dn-sx-Yau"/>
                             <constraint firstItem="uCX-HL-0nd" firstAttribute="trailing" secondItem="ZTA-wf-C5p" secondAttribute="trailing" constant="30" id="3Yv-A5-214"/>
                             <constraint firstItem="f0J-F6-nEH" firstAttribute="top" secondItem="uCX-HL-0nd" secondAttribute="top" constant="40" id="4kX-Oc-cte"/>
                             <constraint firstItem="uCX-HL-0nd" firstAttribute="trailing" secondItem="f0J-F6-nEH" secondAttribute="trailing" constant="10" id="GGq-q9-6a4"/>
                             <constraint firstItem="HBU-Zf-8PK" firstAttribute="top" secondItem="ZTA-wf-C5p" secondAttribute="bottom" constant="40" id="HHv-lA-h05"/>
                             <constraint firstItem="kyi-OQ-2vu" firstAttribute="top" secondItem="f0J-F6-nEH" secondAttribute="bottom" constant="40" id="MNM-Xd-Fpl"/>
+                            <constraint firstItem="LAH-7w-Bsl" firstAttribute="leading" secondItem="uCX-HL-0nd" secondAttribute="leading" id="U6r-px-RSc"/>
                             <constraint firstItem="ZTA-wf-C5p" firstAttribute="leading" secondItem="uCX-HL-0nd" secondAttribute="leading" constant="30" id="Xc5-I6-wTT"/>
                             <constraint firstItem="uCX-HL-0nd" firstAttribute="trailing" secondItem="HBU-Zf-8PK" secondAttribute="trailing" constant="30" id="b8N-Fd-fAX"/>
                             <constraint firstItem="HBU-Zf-8PK" firstAttribute="leading" secondItem="uCX-HL-0nd" secondAttribute="leading" constant="30" id="bWq-wz-cpn"/>
@@ -306,6 +316,7 @@
                             <constraint firstItem="uCX-HL-0nd" firstAttribute="trailing" secondItem="G8g-1D-n2z" secondAttribute="trailing" constant="30" id="ekc-fu-MKb"/>
                             <constraint firstItem="ZTA-wf-C5p" firstAttribute="top" secondItem="kyi-OQ-2vu" secondAttribute="bottom" constant="70" id="gyC-XX-zaC"/>
                             <constraint firstItem="f0J-F6-nEH" firstAttribute="leading" secondItem="uCX-HL-0nd" secondAttribute="leading" constant="10" id="n3Z-Lv-d7k"/>
+                            <constraint firstItem="uCX-HL-0nd" firstAttribute="bottom" secondItem="LAH-7w-Bsl" secondAttribute="bottom" id="oVV-eO-1VF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="uCX-HL-0nd"/>
                     </view>
@@ -315,6 +326,7 @@
                         <outlet property="loginButton" destination="G8g-1D-n2z" id="PwB-7v-b0h"/>
                         <outlet property="passwordTextField" destination="HBU-Zf-8PK" id="78q-2b-OvC"/>
                         <outlet property="textField" destination="f0J-F6-nEH" id="JhC-Hv-Gdt"/>
+                        <outlet property="textView" destination="LAH-7w-Bsl" id="Hul-z1-P20"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Od9-M8-fTe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -556,7 +568,7 @@
         <!--Navigation Controller-->
         <scene sceneID="GI2-7F-HfO">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Mhs-gQ-Tfs" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="MainStoryboard" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Mhs-gQ-Tfs" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cfr-dk-rBp">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
