@@ -49,6 +49,8 @@
 		4BD4FC0B221CDD2D0034A59D /* ToLeetSpeakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FC0A221CDD2D0034A59D /* ToLeetSpeakTests.swift */; };
 		4BD4FC0D221CE3210034A59D /* SumOfIntegersInString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FC0C221CE3210034A59D /* SumOfIntegersInString.swift */; };
 		4BD4FC0F221CE71F0034A59D /* SumOfIntegersInStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FC0E221CE71F0034A59D /* SumOfIntegersInStringTests.swift */; };
+		4BD4FC4522234BF80034A59D /* FindTheNthDigitOfANumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FC4422234BF80034A59D /* FindTheNthDigitOfANumber.swift */; };
+		4BD4FC4722234C310034A59D /* FindTheNthDigitOfANumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FC4622234C310034A59D /* FindTheNthDigitOfANumberTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +108,8 @@
 		4BD4FC0A221CDD2D0034A59D /* ToLeetSpeakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToLeetSpeakTests.swift; sourceTree = "<group>"; };
 		4BD4FC0C221CE3210034A59D /* SumOfIntegersInString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfIntegersInString.swift; sourceTree = "<group>"; };
 		4BD4FC0E221CE71F0034A59D /* SumOfIntegersInStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfIntegersInStringTests.swift; sourceTree = "<group>"; };
+		4BD4FC4422234BF80034A59D /* FindTheNthDigitOfANumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheNthDigitOfANumber.swift; sourceTree = "<group>"; };
+		4BD4FC4622234C310034A59D /* FindTheNthDigitOfANumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheNthDigitOfANumberTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,7 @@
 				4BD4FBE5220D29DD0034A59D /* SquareOrSquareRoot.swift */,
 				4BD4FBE9220E92D40034A59D /* Mumbling.swift */,
 				4BD4FBC5220B9BFA0034A59D /* MovesInSquaredStrings.swift */,
+				4BD4FC4422234BF80034A59D /* FindTheNthDigitOfANumber.swift */,
 				4BD4FBF3221410F80034A59D /* ResistorColorCodes.swift */,
 				4BD4FC08221CDCE70034A59D /* ToLeetSpeak.swift */,
 				4BD4FC0C221CE3210034A59D /* SumOfIntegersInString.swift */,
@@ -180,6 +185,7 @@
 			children = (
 				4B61A00B2203CCCC00A8F992 /* CodeWarTests.swift */,
 				4B61A0072203CB8B00A8F992 /* DescendingOrderTests.swift */,
+				4BD4FC4622234C310034A59D /* FindTheNthDigitOfANumberTests.swift */,
 				4BD4FBF5221411100034A59D /* ResistorColorCodesTests.swift */,
 				4BD4FBC7220B9C1D0034A59D /* MovesInSquaredStringsTests.swift */,
 				4BD4FC0E221CE71F0034A59D /* SumOfIntegersInStringTests.swift */,
@@ -316,6 +322,7 @@
 				4BD4FBDE220D13FA0034A59D /* CalculateBMI.swift in Sources */,
 				4BD4FBF4221410F80034A59D /* ResistorColorCodes.swift in Sources */,
 				4BD4FBF02213B9A10034A59D /* DryingPotatoes.swift in Sources */,
+				4BD4FC4522234BF80034A59D /* FindTheNthDigitOfANumber.swift in Sources */,
 				4BD4FC09221CDCE70034A59D /* ToLeetSpeak.swift in Sources */,
 				4B619FE02202938700A8F992 /* AppDelegate.swift in Sources */,
 				4BD4FBCE220BEE140034A59D /* StringRepeat.swift in Sources */,
@@ -345,6 +352,7 @@
 				4B61A0042203CA6900A8F992 /* DescendingOrder.swift in Sources */,
 				4BD4FBE8220D2A170034A59D /* SquareOrSquareRootTests.swift in Sources */,
 				4BD4FBDC220D0DC80034A59D /* ConvertNumberToReversedArrayOfDigitsTests.swift in Sources */,
+				4BD4FC4722234C310034A59D /* FindTheNthDigitOfANumberTests.swift in Sources */,
 				4BD4FBEC220E93820034A59D /* MumblingTests.swift in Sources */,
 				4BD4FBD4220D030B0034A59D /* SwitchItUpTests.swift in Sources */,
 			);
