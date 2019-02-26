@@ -10,7 +10,7 @@ import UIKit
 
 class MenuTableViewController: UITableViewController {
 
-    let menuItemData = ["Label", "Button", "TextField", "Auto Layout & Size Class", "TableView by code", "Alert", "Slider & Progress Bar", "Web", "CollectionView", "TabBarView"]
+    var menuItemData = ["Label", "Button", "TextField", "Auto Layout & Size Class", "TableView by code", "Alert", "Slider & Progress Bar", "Web", "CollectionView", "TabBarView"]
     let segueList = ["ShowLabelDetail", "ShowButtonDetail", "ShowTextFieldDetail", "ShowSizeClasses", "TableViewByCode", "ShowAlertDetail", "ShowSlider", "ShowWeb", "ShowCollection", "ShowTabBarView"]
     var currentMenuItem = ""
     let table = TableViewController()
@@ -18,11 +18,17 @@ class MenuTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        NotificationCenter.default.addObserver(forName: NSNotification.Name("MessageReceived"), object: nil, queue: OperationQueue.main) { (notification) in
+            if let message = notification.object as? String {
+                self.menuItemData.append(message)
+                self.tableView.reloadData()
+            }
+        }
 
         // Hide extra cells
         self.tableView.tableFooterView = UIView()
     }
-
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
