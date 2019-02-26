@@ -16,6 +16,11 @@ class MenuTableViewController: UITableViewController {
     let table = TableViewController()
 //    let subView = SubViewController()
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        print("\(type(of: self)) -> \(#function) called")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
