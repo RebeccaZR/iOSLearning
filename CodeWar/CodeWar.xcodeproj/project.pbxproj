@@ -55,6 +55,7 @@
 		4BD4FC4B22247DFE0034A59D /* CorrectThetimeStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FC4A22247DFE0034A59D /* CorrectThetimeStringTests.swift */; };
 		4BFF406A2225E9E600D8F203 /* NumberOfDecimalDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF40692225E9E600D8F203 /* NumberOfDecimalDigits.swift */; };
 		4BFF406C2225EA1200D8F203 /* NumberOfDecimalDigitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF406B2225EA1200D8F203 /* NumberOfDecimalDigitsTests.swift */; };
+		4BFF40F42228B53D00D8F203 /* LinkedListsGetNthNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF40F32228B53D00D8F203 /* LinkedListsGetNthNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +119,7 @@
 		4BD4FC4A22247DFE0034A59D /* CorrectThetimeStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectThetimeStringTests.swift; sourceTree = "<group>"; };
 		4BFF40692225E9E600D8F203 /* NumberOfDecimalDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfDecimalDigits.swift; sourceTree = "<group>"; };
 		4BFF406B2225EA1200D8F203 /* NumberOfDecimalDigitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfDecimalDigitsTests.swift; sourceTree = "<group>"; };
+		4BFF40F32228B53D00D8F203 /* LinkedListsGetNthNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListsGetNthNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 				4BD4FBFB22160E8D0034A59D /* CountingInTheAmazon.swift */,
 				4BD4FBC9220BE2060034A59D /* SumOfPositive.swift */,
 				4BD4FBED221117BC0034A59D /* LinkedLists.swift */,
+				4BFF40F32228B53D00D8F203 /* LinkedListsGetNthNode.swift */,
 				4BD4FBCD220BEE140034A59D /* StringRepeat.swift */,
 				4BD4FC4822247DB90034A59D /* CorrectTheTimeString.swift */,
 				4BD4FBEF2213B9A00034A59D /* DryingPotatoes.swift */,
@@ -323,6 +326,7 @@
 				4BD4FBEA220E92D40034A59D /* Mumbling.swift in Sources */,
 				4BD4FBDA220D0D9A0034A59D /* ConvertNumberToReversedArrayOfDigits.swift in Sources */,
 				4B61A0032203CA6900A8F992 /* DescendingOrder.swift in Sources */,
+				4BFF40F42228B53D00D8F203 /* LinkedListsGetNthNode.swift in Sources */,
 				4BD4FBEE221117BC0034A59D /* LinkedLists.swift in Sources */,
 				4BD4FBC6220B9BFA0034A59D /* MovesInSquaredStrings.swift in Sources */,
 				4BD4FBFC22160E8D0034A59D /* CountingInTheAmazon.swift in Sources */,
