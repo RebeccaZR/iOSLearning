@@ -18,19 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         print(NSHomeDirectory())
-        let realm = try! Realm()
         
-        let myNote = Note()
-        myNote.title = "First Note"
-        myNote.content = "This is my first note used to test realm."
-        
-        do {
-            try realm.write {
-                realm.add(myNote)
-            }
-        } catch {
-            print(error.localizedDescription)
-        }
+
         
         return true
     }
