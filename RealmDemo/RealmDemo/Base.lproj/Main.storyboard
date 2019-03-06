@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,11 +13,70 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RealmDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LqQ-Da-auD">
+                                <rect key="frame" x="107.5" y="60" width="160" height="30"/>
+                                <state key="normal" title="Click to Fetch All Notes"/>
+                                <connections>
+                                    <action selector="fetchAllNotes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p5j-cy-HAT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wUQ-CI-0S6">
+                                <rect key="frame" x="111" y="100" width="153" height="30"/>
+                                <state key="normal" title="Click to Search a Note"/>
+                                <connections>
+                                    <action selector="searchOneNote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zvg-zN-8OE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htA-oO-ldM">
+                                <rect key="frame" x="104" y="140" width="167" height="30"/>
+                                <state key="normal" title="Click to Delete one Note"/>
+                                <connections>
+                                    <action selector="deleteOneNote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fcz-9A-BZP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVV-Vc-H5f">
+                                <rect key="frame" x="117" y="180" width="141" height="30"/>
+                                <state key="normal" title="Click to insert a note"/>
+                                <connections>
+                                    <action selector="insertOneNote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rnc-tR-OTg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dcg-ew-Bqe">
+                                <rect key="frame" x="34.5" y="220" width="306" height="30"/>
+                                <state key="normal" title="Click to create a notebook with default notes"/>
+                                <connections>
+                                    <action selector="createOneNotebook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YEk-6Y-j2w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOe-GP-IGT">
+                                <rect key="frame" x="101.5" y="260" width="172" height="30"/>
+                                <state key="normal" title="Click to fetch a notebook"/>
+                                <connections>
+                                    <action selector="createOneNotebook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ab1-Dx-lTy"/>
+                                    <action selector="fetchNotebook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Na4-bP-dvV"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wUQ-CI-0S6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7kO-Bn-u9K"/>
+                            <constraint firstItem="qVV-Vc-H5f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7oW-z9-A7Q"/>
+                            <constraint firstItem="EOe-GP-IGT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ABu-Z1-4ru"/>
+                            <constraint firstItem="LqQ-Da-auD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="Bkv-pF-euu"/>
+                            <constraint firstItem="htA-oO-ldM" firstAttribute="top" secondItem="wUQ-CI-0S6" secondAttribute="bottom" constant="10" id="Kt2-Mf-b5z"/>
+                            <constraint firstItem="htA-oO-ldM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NEE-7r-uMB"/>
+                            <constraint firstItem="EOe-GP-IGT" firstAttribute="top" secondItem="Dcg-ew-Bqe" secondAttribute="bottom" constant="10" id="RhK-uD-RIw"/>
+                            <constraint firstItem="Dcg-ew-Bqe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UGm-Ye-M6T"/>
+                            <constraint firstItem="qVV-Vc-H5f" firstAttribute="top" secondItem="htA-oO-ldM" secondAttribute="bottom" constant="10" id="aaU-Ob-BGC"/>
+                            <constraint firstItem="Dcg-ew-Bqe" firstAttribute="top" secondItem="qVV-Vc-H5f" secondAttribute="bottom" constant="10" id="h9Z-8N-INt"/>
+                            <constraint firstItem="wUQ-CI-0S6" firstAttribute="top" secondItem="LqQ-Da-auD" secondAttribute="bottom" constant="10" id="hrA-Jn-j1A"/>
+                            <constraint firstItem="LqQ-Da-auD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rkx-Y1-gq9"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

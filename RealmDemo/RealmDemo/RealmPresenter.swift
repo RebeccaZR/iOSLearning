@@ -12,6 +12,7 @@ import RealmSwift
 class RealmPresenter {
     
     static let shared = RealmPresenter()
+    private init() {}
     
     let realm = try! Realm()
     
@@ -35,7 +36,7 @@ class RealmPresenter {
     }
     
     func searchNote(by id: Int) -> Note? {
-        return realm.objects(Note.self).filter("id EQUAIL '\(id)'").first
+        return realm.objects(Note.self).filter("id = \(id)").first
     }
     
     func delete(object: Note) -> Bool {
@@ -48,5 +49,39 @@ class RealmPresenter {
             return false
         }
         return true
+    }
+    
+    func createNotebook(_ title: String) {
+        let notebook = Notebook()
+        notebook.title = title
+        notebook.creationDate = Date()
+        
+        try! realm.write {
+            realm.add(notebook)
+        }
+        
+        addNotes(notebook)
+    }
+    
+    func addNotes(_ notebook: Notebook) {
+        //demo data
+        for i in 0...10 {
+            let note = Note()
+            note.title = "Note \(i)"
+            note.content = "This is note \(i) content. --\(Date())"
+            
+            try! realm.write {
+                notebook.notes.append(note)
+            }
+        }
+    }
+    
+    func fetchNotebook() {
+        if let notebook = realm.objects(Notebook.self).last {
+            print("Notebook: \(notebook.title)")
+            if let note = notebook.notes.first {
+                print(note)
+            }
+        }
     }
 }

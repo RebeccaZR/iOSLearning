@@ -14,3 +14,10 @@ class Note: Object {
     @objc dynamic var title = ""
     @objc dynamic var content = ""
 }
+
+class Notebook: Object {
+    @objc dynamic var title = ""
+    @objc dynamic var creationDate = Date()
+    
+    let notes = List<Note>()
+}
