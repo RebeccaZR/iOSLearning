@@ -61,6 +61,8 @@
 		4BFF40FE222F457700D8F203 /* SumOfAllTheMultiplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF40FD222F457700D8F203 /* SumOfAllTheMultiplesTests.swift */; };
 		4BFF410022308B0A00D8F203 /* EuclideanDistanceInNDimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF40FF22308B0A00D8F203 /* EuclideanDistanceInNDimensions.swift */; };
 		4BFF410222308B4800D8F203 /* EuclideanDistanceInNDimensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF410122308B4800D8F203 /* EuclideanDistanceInNDimensionsTests.swift */; };
+		4BFF41342231DF9E00D8F203 /* LostNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF41332231DF9E00D8F203 /* LostNumber.swift */; };
+		4BFF41362231E00400D8F203 /* LostNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF41352231E00400D8F203 /* LostNumberTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +132,8 @@
 		4BFF40FD222F457700D8F203 /* SumOfAllTheMultiplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfAllTheMultiplesTests.swift; sourceTree = "<group>"; };
 		4BFF40FF22308B0A00D8F203 /* EuclideanDistanceInNDimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuclideanDistanceInNDimensions.swift; sourceTree = "<group>"; };
 		4BFF410122308B4800D8F203 /* EuclideanDistanceInNDimensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuclideanDistanceInNDimensionsTests.swift; sourceTree = "<group>"; };
+		4BFF41332231DF9E00D8F203 /* LostNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostNumber.swift; sourceTree = "<group>"; };
+		4BFF41352231E00400D8F203 /* LostNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostNumberTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +195,7 @@
 				4BFF40F9222E0C3B00D8F203 /* LinkedListPushAndBuild.swift */,
 				4BFF40FB222F44A000D8F203 /* SumOfAllTheMultiples.swift */,
 				4BFF40FF22308B0A00D8F203 /* EuclideanDistanceInNDimensions.swift */,
+				4BFF41332231DF9E00D8F203 /* LostNumber.swift */,
 				4BFF40F32228B53D00D8F203 /* LinkedListsGetNthNode.swift */,
 				4BD4FBCD220BEE140034A59D /* StringRepeat.swift */,
 				4BD4FC4822247DB90034A59D /* CorrectTheTimeString.swift */,
@@ -214,6 +219,7 @@
 				4BD4FC4A22247DFE0034A59D /* CorrectThetimeStringTests.swift */,
 				4BD4FC4622234C310034A59D /* FindTheNthDigitOfANumberTests.swift */,
 				4BFF406B2225EA1200D8F203 /* NumberOfDecimalDigitsTests.swift */,
+				4BFF41352231E00400D8F203 /* LostNumberTests.swift */,
 				4BFF410122308B4800D8F203 /* EuclideanDistanceInNDimensionsTests.swift */,
 				4BD4FBF5221411100034A59D /* ResistorColorCodesTests.swift */,
 				4BD4FBC7220B9C1D0034A59D /* MovesInSquaredStringsTests.swift */,
@@ -351,6 +357,7 @@
 				4BD4FBCA220BE2060034A59D /* SumOfPositive.swift in Sources */,
 				4B61A000220293C100A8F992 /* Disemvowel.swift in Sources */,
 				4BD4FC0D221CE3210034A59D /* SumOfIntegersInString.swift in Sources */,
+				4BFF41342231DF9E00D8F203 /* LostNumber.swift in Sources */,
 				4BFF410022308B0A00D8F203 /* EuclideanDistanceInNDimensions.swift in Sources */,
 				4BFF406A2225E9E600D8F203 /* NumberOfDecimalDigits.swift in Sources */,
 				4BD4FBDE220D13FA0034A59D /* CalculateBMI.swift in Sources */,
@@ -390,6 +397,7 @@
 				4BD4FBE0220D14E10034A59D /* CalculateBMITests.swift in Sources */,
 				4B61A0042203CA6900A8F992 /* DescendingOrder.swift in Sources */,
 				4BD4FBE8220D2A170034A59D /* SquareOrSquareRootTests.swift in Sources */,
+				4BFF41362231E00400D8F203 /* LostNumberTests.swift in Sources */,
 				4BD4FBDC220D0DC80034A59D /* ConvertNumberToReversedArrayOfDigitsTests.swift in Sources */,
 				4BD4FC4722234C310034A59D /* FindTheNthDigitOfANumberTests.swift in Sources */,
 				4BD4FBEC220E93820034A59D /* MumblingTests.swift in Sources */,
