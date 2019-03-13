@@ -18,6 +18,8 @@
 		4B61A0042203CA6900A8F992 /* DescendingOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B61A0022203CA6900A8F992 /* DescendingOrder.swift */; };
 		4B61A0082203CB8B00A8F992 /* DescendingOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B61A0072203CB8B00A8F992 /* DescendingOrderTests.swift */; };
 		4B61A00C2203CCCC00A8F992 /* CodeWarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B61A00B2203CCCC00A8F992 /* CodeWarTests.swift */; };
+		4BC02E0F2239CBE200ADE33D /* PartialWordSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC02E0E2239CBE200ADE33D /* PartialWordSearch.swift */; };
+		4BC02E112239CC1300ADE33D /* func wordSearch(_ str:String, _ arr:[String]) -> [String] { PartialWordSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC02E102239CC1300ADE33D /* func wordSearch(_ str:String, _ arr:[String]) -> [String] { PartialWordSearchTests.swift */; };
 		4BD4FBC6220B9BFA0034A59D /* MovesInSquaredStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBC5220B9BFA0034A59D /* MovesInSquaredStrings.swift */; };
 		4BD4FBC8220B9C1D0034A59D /* MovesInSquaredStringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBC7220B9C1D0034A59D /* MovesInSquaredStringsTests.swift */; };
 		4BD4FBCA220BE2060034A59D /* SumOfPositive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4FBC9220BE2060034A59D /* SumOfPositive.swift */; };
@@ -89,6 +91,8 @@
 		4B61A0022203CA6900A8F992 /* DescendingOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescendingOrder.swift; sourceTree = "<group>"; };
 		4B61A0072203CB8B00A8F992 /* DescendingOrderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescendingOrderTests.swift; sourceTree = "<group>"; };
 		4B61A00B2203CCCC00A8F992 /* CodeWarTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeWarTests.swift; sourceTree = "<group>"; };
+		4BC02E0E2239CBE200ADE33D /* PartialWordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialWordSearch.swift; sourceTree = "<group>"; };
+		4BC02E102239CC1300ADE33D /* func wordSearch(_ str:String, _ arr:[String]) -> [String] { PartialWordSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func wordSearch(_ str:String, _ arr:[String]) -> [String] { PartialWordSearchTests.swift"; sourceTree = "<group>"; };
 		4BD4FBC5220B9BFA0034A59D /* MovesInSquaredStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovesInSquaredStrings.swift; sourceTree = "<group>"; };
 		4BD4FBC7220B9C1D0034A59D /* MovesInSquaredStringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovesInSquaredStringsTests.swift; sourceTree = "<group>"; };
 		4BD4FBC9220BE2060034A59D /* SumOfPositive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfPositive.swift; sourceTree = "<group>"; };
@@ -190,6 +194,7 @@
 				4BD4FC08221CDCE70034A59D /* ToLeetSpeak.swift */,
 				4BD4FC0C221CE3210034A59D /* SumOfIntegersInString.swift */,
 				4BD4FBFB22160E8D0034A59D /* CountingInTheAmazon.swift */,
+				4BC02E0E2239CBE200ADE33D /* PartialWordSearch.swift */,
 				4BD4FBC9220BE2060034A59D /* SumOfPositive.swift */,
 				4BD4FBED221117BC0034A59D /* LinkedLists.swift */,
 				4BFF40F9222E0C3B00D8F203 /* LinkedListPushAndBuild.swift */,
@@ -227,6 +232,7 @@
 				4BD4FC0E221CE71F0034A59D /* SumOfIntegersInStringTests.swift */,
 				4BD4FC0A221CDD2D0034A59D /* ToLeetSpeakTests.swift */,
 				4BD4FBDF220D14E10034A59D /* CalculateBMITests.swift */,
+				4BC02E102239CC1300ADE33D /* func wordSearch(_ str:String, _ arr:[String]) -> [String] { PartialWordSearchTests.swift */,
 				4BD4FBE7220D2A170034A59D /* SquareOrSquareRootTests.swift */,
 				4BD4FBCB220BE2410034A59D /* SumOfPositiveTests.swift */,
 				4BD4FBE3220D1F9D0034A59D /* DollarsAndCentsTests.swift */,
@@ -363,6 +369,7 @@
 				4BD4FBDE220D13FA0034A59D /* CalculateBMI.swift in Sources */,
 				4BD4FBF4221410F80034A59D /* ResistorColorCodes.swift in Sources */,
 				4BD4FBF02213B9A10034A59D /* DryingPotatoes.swift in Sources */,
+				4BC02E0F2239CBE200ADE33D /* PartialWordSearch.swift in Sources */,
 				4BFF40FC222F44A000D8F203 /* SumOfAllTheMultiples.swift in Sources */,
 				4BD4FC4522234BF80034A59D /* FindTheNthDigitOfANumber.swift in Sources */,
 				4BD4FC09221CDCE70034A59D /* ToLeetSpeak.swift in Sources */,
@@ -383,6 +390,7 @@
 				4BFF406C2225EA1200D8F203 /* NumberOfDecimalDigitsTests.swift in Sources */,
 				4BD4FBE4220D1F9D0034A59D /* DollarsAndCentsTests.swift in Sources */,
 				4B61A0082203CB8B00A8F992 /* DescendingOrderTests.swift in Sources */,
+				4BC02E112239CC1300ADE33D /* func wordSearch(_ str:String, _ arr:[String]) -> [String] { PartialWordSearchTests.swift in Sources */,
 				4BD4FC0B221CDD2D0034A59D /* ToLeetSpeakTests.swift in Sources */,
 				4BD4FBF6221411100034A59D /* ResistorColorCodesTests.swift in Sources */,
 				4BD4FBD8220D07A80034A59D /* StringyStringsTests.swift in Sources */,
